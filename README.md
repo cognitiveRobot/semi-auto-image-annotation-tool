@@ -15,8 +15,10 @@ conda create --name anno python=3.6
 conda activate anno
 pip install -r requirements.txt
 ```
+1b. Get the keras model from [google_drive](https://drive.google.com/file/d/1Lv8TvepyXeQ1kfiuTRjFnK5pRdoMwcI2/view?usp=sharing) and save in `/snapshots/keras`, if the [original link]((https://github.com/fizyr/keras-retinanet/releases/download/0.3.1/resnet50_coco_best_v2.1.0.h5)) doesn't work.
+
 2. Run
-It's now ready to run, as keras model (trained on coco datasets) is there.
+It's now ready to run, 
 ```
 python main.py
 ```
