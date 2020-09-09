@@ -6,6 +6,30 @@ Semi Automatic Image Annotation Toolbox with tensorflow and keras object detecti
 
 ## Installation
 
+My Steps:
+1. Install
+```
+git clone https://github.com/cognitiveRobot/semi-auto-image-annotation-tool.git
+cd semi-auto-image-annotation-tool
+conda create --name anno python=3.6
+conda activate anno
+pip install -r requirements.txt
+```
+2. Run
+It's now ready to run, as keras model (trained on coco datasets) is there.
+```
+python main.py
+```
+3. Select images dir.
+4. Select model. Add model.
+5. Select `manual` as suggestion mode.
+6. Add your classes `on the right` e.g. `person`, `dog`
+6. Press Detect.
+8. Press `save` when you done.
+The final annotations can be found in the file `annotations.csv` in ./annotations/ . Also a xml file will saved.
+
+
+Original Steps:
 1) Clone this repository.
 
 2) In the repository, execute `pip install -r requirements.txt`.

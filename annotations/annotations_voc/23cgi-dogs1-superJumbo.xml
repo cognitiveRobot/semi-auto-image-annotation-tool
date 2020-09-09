@@ -1,0 +1,37 @@
+<annotation>
+    <folder>train</folder>
+    <filename>23cgi-dogs1-superJumbo.jpg</filename>
+    <path>/mnt/hdd/data/person-dog/train/23cgi-dogs1-superJumbo.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>278</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>dog</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>260</xmin>
+            <ymin>36</ymin>
+            <xmax>424</xmax>
+            <ymax>276</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>person</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>81</xmin>
+            <ymin>25</ymin>
+            <xmax>283</xmax>
+            <ymax>278</ymax>
+        </bndbox>
+    </object>
+</annotation>

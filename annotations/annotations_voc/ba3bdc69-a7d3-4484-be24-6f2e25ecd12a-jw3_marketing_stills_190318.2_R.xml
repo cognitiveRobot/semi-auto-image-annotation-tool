@@ -1,0 +1,37 @@
+<annotation>
+    <folder>train</folder>
+    <filename>ba3bdc69-a7d3-4484-be24-6f2e25ecd12a-jw3_marketing_stills_190318.2_R.jpg</filename>
+    <path>/mnt/hdd/data/person-dog/train/ba3bdc69-a7d3-4484-be24-6f2e25ecd12a-jw3_marketing_stills_190318.2_R.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>281</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>dog</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>250</xmin>
+            <ymin>71</ymin>
+            <xmax>500</xmax>
+            <ymax>281</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>person</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>0</xmin>
+            <ymin>0</ymin>
+            <xmax>230</xmax>
+            <ymax>279</ymax>
+        </bndbox>
+    </object>
+</annotation>
